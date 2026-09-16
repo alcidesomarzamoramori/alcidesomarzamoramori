@@ -1,17 +1,3 @@
-<div align="center">
-
-# ```python
-# /// <summary>
-# Alcides Omar Zamora Mori - DEVELOPER PROFILE
-# Stack: Python | Seguridad | Matemática
-# Status: Online & Available
-# /// </summary>
-# ```
-
-</div>
-
----
-
 <table>
 <tr>
 <td width="280">

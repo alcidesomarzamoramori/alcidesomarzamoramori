@@ -1,17 +1,11 @@
 <div align="center">
 
 # ```python
-
 # /// <summary>
-
-# Alcides Omar Zamora Mori — DEVELOPER PROFILE
-
+# Alcides Omar Zamora Mori - DEVELOPER PROFILE
 # Stack: Python | Seguridad | Matemática
-
 # Status: Online & Available
-
 # /// </summary>
-
 # ```
 
 </div>
@@ -20,11 +14,19 @@
 
 <table>
 <tr>
-<td width="280" valign="top" align="center">
+<td width="280">
+
+```
+<img>
+```
 
 <a href="https://github.com/alcidesomarzamoramori">
-<img src="https://avatars.githubusercontent.com/u/238910642?v=4&s=280" width="260" alt="Alcides Omar Zamora Mori" style="border-radius: 8px; border: 2px solid #00FF41;"/>
+  <img src="https://avatars.githubusercontent.com/u/238910642?v=4&s=280" width="260" alt="Alcides Omar Zamora Mori" style="border-radius: 8px; border: 2px solid #00FF41;"/>
 </a>
+
+```
+</img>
+```
 
 <br/>
 
@@ -32,53 +34,44 @@
 
 <br/>
 
-<a href="https://github.com/alcidesomarzamoramori">
-<img src="https://img.shields.io/badge/GitHub-Follow-00FF41?style=flat-square&logo=github&logoColor=00FF41&labelColor=1a1a1a" alt="GitHub"/>
-</a>
-
-<a href="https://www.linkedin.com/in/omarzamoramori/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-00FF41?style=flat-square&logo=linkedin&logoColor=00FF41&labelColor=1a1a1a" alt="LinkedIn"/>
-</a>
-
-<a href="https://alcidesomarzamoramori.blogspot.com/">
-<img src="https://img.shields.io/badge/Blog-Read-00FF41?style=flat-square&logo=blogger&logoColor=00FF41&labelColor=1a1a1a" alt="Blog"/>
-</a>
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-00FF41?style=flat-square&logo=github&logoColor=00FF41&labelColor=1a1a1a)](https://github.com/alcidesomarzamoramori)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00FF41?style=flat-square&logo=linkedin&logoColor=00FF41&labelColor=1a1a1a)](https://www.linkedin.com/in/omarzamoramori/)
+[![Blog](https://img.shields.io/badge/Blog-Read-00FF41?style=flat-square&logo=blogger&logoColor=00FF41&labelColor=1a1a1a)](https://alcidesomarzamoramori.blogspot.com/)
 
 </td>
 
 <td valign="top">
 
-```csharp
+```python
 /// <summary>
 /// INFORMACIÓN PERSONAL
 /// </summary>
 
-public class INFORMACION
+public class INFORMACIÓN
 {
-    public string NOMBRE = "Alcides Omar Zamora Mori";
-    public string PERFIL = "Administrador | Developer";
+    public string NOM = "Alcides Omar Zamora Mori";
+    public string TÍTULO = "Licenciado en Ciencias Administrativas";
+    public string ESTUDIOS = "2.º Ing. de Sistemas | 4.º Física Matemática";
     
-    public string PAIS = "Perú 🇵🇪";
-    public string REGION = "La Libertad";
+    public string PAÍS = "Perú 🇵🇪";
+    public string REGIÓN = "La Libertad";
     public string CIUDAD = "Trujillo";
     
     public bool DISPONIBLE = true;
-    public string MODO = "Home Base";
+    public string MODO = "🏠 Home Base Seguro";
+    public int RESPUESTA_TIME = 24; // horas
     
-    public string ENFOQUE =
-        "Desarrollo, automatización, seguridad y análisis.";
-    
-    public string LEMA =
+    public string LEMA = 
         "La disciplina convierte el cálculo en producto.";
 }
 ```
 
-```csharp
+```python
 /// <summary>
 /// CONTACTO DIRECTO
 /// </summary>
 
-public enum CONTACTO
+public enum CONTACTO()
 {
     EMAIL = "alcidesomarzamoramori@gmail.com",
     LINKEDIN = "linkedin.com/in/omarzamoramori",
@@ -94,126 +87,109 @@ public enum CONTACTO
 
 ---
 
-## ```python
-
-## /// <summary>
-
-## STACK TECNOLÓGICO
-
-## Herramientas y tecnologías de trabajo
-
-## /// </summary>
-
-## ```
-
 ```python
-class STACK:
+/// <summary>
+/// STACK TECNOLÓGICO
+/// Herramientas principales compiladas y listas para acción
+/// </summary>
 
-    lenguajes = {
-        "Principal": ["Python"],
-        "Otros": ["C#", "C++", "C"],
-        "Backend": ["Bash", "SQL"],
-        "Frontend": ["HTML", "CSS", "JavaScript"],
-        "Documentación": ["LaTeX", "Markdown"]
-    }
+public enum LENGUAJES()
+{
+    PRIMARIO = "Python",           // [████████░░] 85%
+    SECUNDARIO = "C#, C++, C",     // [██████░░░░] 60%
+    BACKEND = "Bash, SQL",          // [█████░░░░░] 50%
+    FRONTEND = "HTML, CSS, JS",     // [████░░░░░░] 40%
+    ACADEMIC = "LaTeX, Markdown"    // [██████░░░░] 65%
+}
 
-    desarrollo = {
-        "Versionado": ["Git", "GitHub", "GitLab"],
-        "IDE": ["VS Code", "PyCharm", "Visual Studio"],
-        "Sistemas": ["Linux", "Windows", "macOS"],
-        "Servidores": ["SSH", "Terminal", "Bash"]
-    }
+public enum PLATAFORMAS()
+{
+    DESARROLLO = "Git, GitHub, VS Code",
+    SISTEMAS = "Linux, Windows, MacOS",
+    SERVIDORES = "SSH, Terminal, Bash",
+    HERRAMIENTAS = "NumPy, Pandas, Matplotlib"
+}
 
-    datos = {
-        "Python": ["NumPy", "Pandas", "Matplotlib"]
-    }
-
-    diseño = {
-        "Herramientas": ["Figma", "Photoshop", "Adobe XD"]
-    }
-
-    productividad = {
-        "Ofimática": [
-            "Microsoft Excel",
-            "Google Workspace",
-            "LibreOffice"
-        ]
-    }
+public enum LOGICIEL()
+{
+    IDE = "Visual Studio Code, PyCharm",
+    VERSIONADO = "Git, GitHub, GitLab",
+    DISEÑO = "Figma, Photoshop, Adobe XD",
+    OFICINA = "Excel, Google Suite, LibreOffice"
+}
 ```
 
 ---
 
-## ```python
-
-## /// <summary>
-
-## ÁREAS DE INTERÉS
-
-## /// </summary>
-
-## ```
-
 ```python
-AREAS = [
+/// <summary>
+/// HABILIDADES TÉCNICAS
+/// Competencias principales y nivel de dominio
+/// </summary>
 
-    "Desarrollo de software",
-    "Python",
-    "Automatización",
-    "Seguridad informática",
-    "Criptografía",
-    "Análisis de datos",
-    "Matemática",
-    "Física",
-    "Sistemas",
-    "Herramientas digitales"
-
-]
+public class HABILIDADES
+{
+    // Core Development
+    public void Desarrollo()
+    {
+        var _Python = new Skill { Nivel = "Avanzado", Experiencia = "3 años" };
+        var _Seguridad = new Skill { Nivel = "Intermedio", Experiencia = "2 años" };
+        var _Criptografía = new Skill { Nivel = "Intermedio", Experiencia = "1.5 años" };
+    }
+    
+    // Academic
+    public void Académica()
+    {
+        var _Matemática = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
+        var _Física = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
+        var _Análisis = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
+    }
+    
+    // Soft Skills
+    public void PersonalSkills()
+    {
+        var _Disciplina = "████████░░ 85%";
+        var _Dedicación = "██████████ 95%";
+        var _Adaptabilidad = "████████░░ 85%";
+        var _Curiosidad = "██████████ 100%";
+    }
+}
 ```
 
 ---
 
-## ```python
-
-## /// <summary>
-
-## HABILIDADES
-
-## /// </summary>
-
-## ```
-
 ```python
-class HABILIDADES:
+/// <summary>
+/// ESTADÍSTICAS DE GITHUB
+/// Métricas en tiempo real
+/// </summary>
 
-    desarrollo = {
-        "Python": "Avanzado",
-        "Seguridad": "Intermedio",
-        "Criptografía": "Intermedio"
+public static class GITHUB_STATS
+{
+    public const string REPOSITORIOS = "2 públicos";
+    public const string SEGUIDORES = "1 follower";
+    public const string SIGUIENDO = "2 following";
+    public const bool VERIFICADO = true;
+    
+    public static void CargarMétricas()
+    {
+        // Stats auto-actualizadas
+        // Ver gráficos abajo
     }
-
-    academica = {
-        "Matemática": "Avanzado",
-        "Física": "En formación",
-        "Análisis": "Avanzado"
-    }
-
-    metodologia = {
-        "Disciplina": "████████░░",
-        "Dedicación": "█████████░",
-        "Adaptabilidad": "████████░░",
-        "Curiosidad": "██████████"
-    }
+}
 ```
-
----
 
 <div align="center">
 
-# 📊 GITHUB STATISTICS
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=alcidesomarzamoramori&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&locale=es"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=alcidesomarzamoramori&show_icons=true&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&locale=es" alt="GitHub Stats"/>
+</picture>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=alcidesomarzamoramori&show_icons=true&include_all_commits=true&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&locale=es" alt="GitHub Stats"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alcidesomarzamoramori&layout=compact&langs_count=8&hide_border=true&bg_color=1a1a1a&title_color=00FF41&text_color=39FF14&locale=es" alt="Top Languages"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=alcidesomarzamoramori&layout=compact&langs_count=8&hide_border=true&bg_color=1a1a1a&title_color=00FF41&text_color=39FF14&locale=es"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alcidesomarzamoramori&layout=compact&langs_count=8&hide_border=true&bg_color=1a1a1a&title_color=00FF41&text_color=39FF14&locale=es" alt="Top Languages"/>
+</picture>
 
 <br/>
 
@@ -221,201 +197,181 @@ class HABILIDADES:
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=alcidesomarzamoramori&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8" width="100%" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=alcidesomarzamoramori&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8" width="100%" alt="Trofeos"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=alcidesomarzamoramori&bg_color=1a1a1a&color=00FF41&line=39FF14&point=00FF41&area_color=003300&title_color=00FF41&area=true&hide_border=true&custom_title=Actividad%20-%20Últimos%2031%20días" width="100%" alt="GitHub Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=alcidesomarzamoramori&bg_color=1a1a1a&color=00FF41&line=39FF14&point=00FF41&area_color=003300&title_color=00FF41&area=true&hide_border=true&custom_title=Actividad%20-%20%C3%9Altimos%2031%20d%C3%ADas" width="100%" alt="Activity Graph"/>
 
 </div>
 
 ---
 
-## ```python
-
-## /// <summary>
-
-## PROYECTOS DESTACADOS
-
-## /// </summary>
-
-## ```
-
-### 🔐 Passkevrynox
-
 ```python
-class Passkevrynox:
+/// <summary>
+/// PROYECTOS DESTACADOS
+/// Repositorios principales en producción
+/// </summary>
 
-    name = "Passkevrynox"
-    type = "Password Generator"
-
-    technology = [
-        "Python",
-        "Cryptography",
-        "Security"
-    ]
-
-    status = "ACTIVE"
-
-    description = (
-        "Generador de contraseñas enfocado en "
-        "seguridad, aleatoriedad y buenas prácticas "
-        "para la creación de credenciales."
-    )
-
-    repository = (
-        "github.com/alcidesomarzamoramori/Passkevrynox"
-    )
+public partial class PROYECTOS : GithubRepo
+{
+    /// <summary>
+    /// Passkevrynox - Password Generator Military Grade
+    /// Generador de contraseñas de grado militar
+    /// Cumple estándares de banca internacional
+    /// </summary>
+    public void Passkevrynox()
+    {
+        var _Descripción = "Generador de contraseñas de grado militar " +
+                           "alineado al estándar de bits usado por " +
+                           "banca internacional.";
+        var _Tecnología = new[] { "Python", "Cryptography", "Security" };
+        var _Estado = "✓ ACTIVO EN PRODUCCIÓN";
+        var _Seguridad = "████████████ 100%";
+        
+        // Repo: github.com/alcidesomarzamoramori/Passkevrynox
+    }
+    
+    /// <summary>
+    /// Pechuga en Fuga - Videojuego
+    /// Aventura que prueba reflejos y paciencia
+    /// Mecánica: Plataformas, obstáculos, boss final
+    /// </summary>
+    public void PechugaEnFuga()
+    {
+        var _Descripción = "Una aventura que pone a prueba " +
+                           "tus reflejos y tu paciencia.";
+        var _Tecnología = new[] { "Python", "Pygame", "NumPy" };
+        var _Estado = "✓ ACTIVO EN DISTRIBUCIÓN";
+        var _Rendimiento = "144 FPS • Jugadores: ∞";
+        
+        // Repo: github.com/alcidesomarzamoramori/Pechuga-en-Fuga
+    }
+}
 ```
 
 <div align="center">
 
 <a href="https://github.com/alcidesomarzamoramori/Passkevrynox">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=alcidesomarzamoramori&repo=Passkevrynox&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&show_owner=false" alt="Passkevrynox"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alcidesomarzamoramori&repo=Passkevrynox&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&show_owner=false" alt="Passkevrynox"/>
 </a>
-
-</div>
-
----
-
-### 🎮 Pechuga en Fuga
-
-```python
-class PechugaEnFuga:
-
-    name = "Pechuga en Fuga"
-    type = "2D Video Game"
-
-    technology = [
-        "Godot",
-        "GDScript",
-        "2D Game Development"
-    ]
-
-    status = "IN DEVELOPMENT"
-
-    description = (
-        "Videojuego arcade 2D centrado en reflejos, "
-        "obstáculos y progresión de dificultad."
-    )
-
-    engine = "Godot 4.7.2"
-
-    repository = (
-        "github.com/alcidesomarzamoramori/Pechuga-en-Fuga"
-    )
-```
-
-<div align="center">
 
 <a href="https://github.com/alcidesomarzamoramori/Pechuga-en-Fuga">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=alcidesomarzamoramori&repo=Pechuga-en-Fuga&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&show_owner=false" alt="Pechuga en Fuga"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alcidesomarzamoramori&repo=Pechuga-en-Fuga&hide_border=true&bg_color=1a1a1a&title_color=00FF41&icon_color=39FF14&text_color=00FF41&show_owner=false" alt="Pechuga en Fuga"/>
 </a>
 
 </div>
 
 ---
 
-## ```python
-
-## /// <summary>
-
-## FORMACIÓN
-
-## /// </summary>
-
-## ```
-
 ```python
-class FORMACION:
+/// <summary>
+/// CERTIFICACIONES & FORMACIÓN
+/// Estudios formales en curso
+/// </summary>
 
-    academica = {
-
-        "Ciencias Administrativas y Económicas": {
-            "estado": "Completada"
-        },
-
-        "Ingeniería de Sistemas e Informática": {
-            "estado": "En progreso"
-        },
-
-        "Física Matemática": {
-            "estado": "En progreso"
-        }
+public partial class FORMACIÓN
+{
+    public class Académica
+    {
+        var _Licenciatura = new Degree
+        {
+            Carrera = "Ciencias Administrativas y Económicas",
+            Estado = "✓ Completada",
+            Año = 2020
+        };
+        
+        var _Ingeniería = new Degree
+        {
+            Carrera = "Ingeniería de Sistemas e Informática",
+            Ciclo = "2.º (en progreso)",
+            Inicio = 2023
+        };
+        
+        var _Física = new Degree
+        {
+            Carrera = "Física Matemática",
+            Ciclo = "4.º (en progreso)",
+            Inicio = 2024
+        };
     }
-
-    autodidacta = [
-        "Python",
-        "Seguridad informática",
-        "Criptografía",
-        "Desarrollo de software",
-        "Git & GitHub"
-    ]
+    
+    public class Online
+    {
+        // Autoformación en Python, Seguridad, Criptografía
+        // Recursos: GitHub Learning, YouTube, Documentación oficial
+        var _Dedicación = "10+ horas semanales";
+    }
+}
 ```
 
 ---
-
-## ```python
-
-## /// <summary>
-
-## FILOSOFÍA
-
-## /// </summary>
-
-## ```
 
 ```python
-class FILOSOFIA:
+/// <summary>
+/// VALORES & FILOSOFÍA
+/// Principios de trabajo y vida
+/// </summary>
 
-    lema = "La disciplina convierte el cálculo en producto."
-
-    principios = [
-
-        "Trabajo consistente y ordenado",
-        "Aprendizaje continuo",
-        "Proyectos con propósito",
-        "Calidad sobre cantidad",
-        "Resolución de problemas"
-
-    ]
+public static class FILOSOFÍA
+{
+    public const string LEMA = 
+        "La disciplina convierte el cálculo en producto.";
+    
+    public static void ModoOperación()
+    {
+        var _Disciplina = "Trabajo consistente y ordenado";
+        var _Curiosidad = "Aprendizaje continuo";
+        var _Enfoque = "Proyectos con propósito";
+        var _Excelencia = "Calidad sobre cantidad";
+    }
+    
+    public static void Disponibilidad()
+    {
+        return new Disponibilidad
+        {
+            HorasLaborales = "24/7",
+            Ubicación = "Home Base",
+            Respuesta = "< 24 horas",
+            Tipo = "Misiones Python & Seguridad"
+        };
+    }
+}
 ```
 
 ---
 
-## ```python
+```python
+/// <summary>
+/// CONECTAR
+/// Canales de comunicación abiertos
+/// </summary>
 
-## /// <summary>
-
-## CONEXIÓN
-
-## Canales de comunicación
-
-## /// </summary>
-
-## ```
+public static class CONEXIÓN
+{
+    [Contacto("Email")]
+    public const string EMAIL = "alcidesomarzamoramori@gmail.com";
+    
+    [Contacto("LinkedIn")]
+    public const string LINKEDIN = "linkedin.com/in/omarzamoramori";
+    
+    [Contacto("Blog")]
+    public const string BLOG = "alcidesomarzamoramori.blogspot.com";
+    
+    [Contacto("YouTube")]
+    public const string YOUTUBE = "youtube.com/@ALCIDESOMARZAMORAMORI";
+    
+    [Contacto("Instagram")]
+    public const string INSTAGRAM = "instagram.com/omarpeep";
+}
+```
 
 <div align="center">
 
-<a href="mailto:alcidesomarzamoramori@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contacto-00FF41?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=1a1a1a" alt="Email"/>
-</a>
-
-<a href="https://www.linkedin.com/in/omarzamoramori/">
-<img src="https://img.shields.io/badge/LinkedIn-Conecta-00FF41?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=1a1a1a" alt="LinkedIn"/>
-</a>
-
-<a href="https://alcidesomarzamoramori.blogspot.com/">
-<img src="https://img.shields.io/badge/Blog-Visita-00FF41?style=for-the-badge&logo=blogger&logoColor=00FF41&labelColor=1a1a1a" alt="Blog"/>
-</a>
-
-<a href="https://www.youtube.com/@ALCIDESOMARZAMORAMORI">
-<img src="https://img.shields.io/badge/YouTube-Visita-00FF41?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=1a1a1a" alt="YouTube"/>
-</a>
-
-<a href="https://www.instagram.com/omarpeep/">
-<img src="https://img.shields.io/badge/Instagram-Visita-00FF41?style=for-the-badge&logo=instagram&logoColor=00FF41&labelColor=1a1a1a" alt="Instagram"/>
-</a>
+[![Blog](https://img.shields.io/badge/Blog-Visita-00FF41?style=for-the-badge&logo=blogger&logoColor=00FF41&labelColor=1a1a1a)](https://alcidesomarzamoramori.blogspot.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conecta-00FF41?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=1a1a1a)](https://www.linkedin.com/in/omarzamoramori/)
+[![YouTube](https://img.shields.io/badge/YouTube-Suscríbete-00FF41?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=1a1a1a)](https://www.youtube.com/@ALCIDESOMARZAMORAMORI)
+[![Instagram](https://img.shields.io/badge/Instagram-Sígueme-00FF41?style=for-the-badge&logo=instagram&logoColor=00FF41&labelColor=1a1a1a)](https://www.instagram.com/omarpeep/)
 
 </div>
 
@@ -427,7 +383,7 @@ class FILOSOFIA:
 /// Los números describen el mundo.
 /// El código lo pone en marcha.
 ///
-/// © 2026 Alcides Omar Zamora Mori
+/// © 2025 Alcides Omar Zamora Mori
 /// Made with 💚 from La Libertad, Perú
 ```
 

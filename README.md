@@ -35,20 +35,17 @@
 
 public class INFORMACIÓN
 {
-    public string NOM = "Alcides Omar Zamora Mori";
-    public string TÍTULO = "Licenciado en Ciencias Administrativas";
+    public string NOMBRE = "Alcides Omar Zamora Mori";
+    public string TÍTULO = "Licenciado en Ciencias Administrativas & Económicas";
     public string ESTUDIOS = "2.º Ing. de Sistemas | 4.º Física Matemática";
     
-    public string PAÍS = "Perú 🇵🇪";
+    public string PAÍS = "Perú";
     public string REGIÓN = "La Libertad";
     public string CIUDAD = "Trujillo";
     
     public bool DISPONIBLE = true;
-    public string MODO = "🏠 Home Base Seguro";
+    public string MODO = "Home Base Seguro";
     public int RESPUESTA_TIME = 24; // horas
-    
-    public string LEMA = 
-        "La disciplina convierte el cálculo en producto.";
 }
 ```
 
@@ -118,7 +115,7 @@ public class HABILIDADES
     // Core Development
     public void Desarrollo()
     {
-        var _Python = new Skill { Nivel = "Avanzado", Experiencia = "3 años" };
+        var _Python = new Skill { Nivel = "Avanzado", Experiencia = "2 años" };
         var _Seguridad = new Skill { Nivel = "Intermedio", Experiencia = "2 años" };
         var _Criptografía = new Skill { Nivel = "Intermedio", Experiencia = "1.5 años" };
     }
@@ -126,8 +123,8 @@ public class HABILIDADES
     // Academic
     public void Académica()
     {
-        var _Matemática = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
-        var _Física = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
+        var _Matemática = new Skill { Nivel = "Intermedio", Experiencia = "Continuo" };
+        var _Física = new Skill { Nivel = "Intermedio", Experiencia = "Continuo" };
         var _Análisis = new Skill { Nivel = "Avanzado", Experiencia = "Continuo" };
     }
     
@@ -369,7 +366,7 @@ public static class CONEXIÓN
 /// Los números describen el mundo.
 /// El código lo pone en marcha.
 ///
-/// © 2025 Alcides Omar Zamora Mori
+/// © 2024 - 2026 Alcides Omar Zamora Mori
 /// Made with 💚 from La Libertad, Perú
 ```
 

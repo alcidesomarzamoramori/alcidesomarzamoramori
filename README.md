@@ -33,7 +33,7 @@ public class INFORMACIÓN
     public string NOMBRE = "Alcides Omar Zamora Mori";
     public string TÍTULO = "Licenciado en Ciencias Administrativas & Económicas";
     public string ESTUDIOS = "2.º Ing. de Sistemas | 4.º Física Matemática";
-    public string EXPERIENCIA = "SAN JORGE S.A | BM SECURITY S.A.C| COMINGUES S.A.C";
+    public string EXPERIENCIA = "SAN JORGE S.A | BM SECURITY | COMINGUES S.A.C";
     public string IDIOMAS = "Español | Inglés";
 
     

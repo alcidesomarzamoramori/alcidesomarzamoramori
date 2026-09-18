@@ -43,6 +43,5 @@ public class INFORMACIÓN
     
     public bool DISPONIBLE = true;
     public string MODO = "Remote work Seguro";
-    public string MODO = "Remote work Seguro";
     public int RESPUESTA_TIME = 24; // horas
 }
